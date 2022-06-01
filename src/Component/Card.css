@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: #111;
+}
+.card {
+  width: 300px;
+  margin: 20px 0;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.card > img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+.card__title {
+  padding: 10px 3px;
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+}
+.card__body {
+  padding: 5px 5px 20px 5px;
+}
+.card__body h4,
+.card__body p {
+  padding: 5px;
+}
